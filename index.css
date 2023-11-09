@@ -1,0 +1,39 @@
+.hide {
+  display: none;
+}
+
+.main {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  background-image: url(image/cloc.jpg);
+  background-position: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
+  /* margin-bottom: auto; */
+}
+
+.container {
+  position: absolute;
+  top: 50px;
+  left: 130px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+.container div {
+  border: solid white 2px;
+  padding: 5px;
+}
+.indicator-container,
+.hours-container,
+.minutes-container,
+.seconds-container {
+  width: 20px;
+  border: none;
+  text-align: center;
+}
